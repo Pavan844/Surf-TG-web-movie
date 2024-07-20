@@ -23,7 +23,7 @@ if UPSTREAM_REPO is not None:
         srun(["rm", "-rf", ".git"])
         
     update = srun([f"git init -q \
-                     && git config --global user.email doc.adhikari@gmail.com \
+                     && git config --global user.email doc.pavanlegend844@gmail.com \
                      && git config --global user.name SurfTG \
                      && git add . \
                      && git commit -sm update -q \
